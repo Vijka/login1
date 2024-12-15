@@ -32,7 +32,7 @@ if ($isLoggedIn) {
                 <li><a href="#offer">Šīs dienas piedāvājums</a></li>
                 <?php if ($isLoggedIn): ?>
                     <li><a href="#profile">Profils</a></li>
-                    <li><a href="logout.php">Izrakstīties</a></li>
+                    <li><a href="logout1.php">Izrakstīties</a></li>
                 <?php else: ?>
                     <li><a href="autorizacija.php">Pieslēgties</a></li>
                 <?php endif; ?>
