@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register & Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="autorizacija.css">
 </head>
 <body>
     <div class="container" id="signup" style="display:none;">
       <h1 class="form-title">Registrēties</h1>
-      <form method="post" action="register.php">
+      <form method="post" action="autorizacija.php">
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
@@ -34,7 +34,7 @@
        <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
       <p class="or">
-        ----------or--------
+        ----------vai--------
       </p>
       <div class="icons">
         <i class="fab fa-google"></i>
