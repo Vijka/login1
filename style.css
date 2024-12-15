@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+.container {
+    background: #fff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.2);
+}
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+.input-group i {
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+}
+.input-group input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.input-group input::placeholder {
+    color: #aaa;
+}
+.input-group:focus-within {
+    border-bottom-color: hsl(327, 90%, 28%);
+}
+.btn {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background: rgb(125, 125, 235);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #07001f;
+}
+.or {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.icons {
+    text-align: center;
+}
+.icons i {
+    color: rgb(125, 125, 235);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+.icons i:hover {
+    background: #07001f;
+    border: 2px solid rgb(125, 125, 235);
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+button {
+    color: rgb(125, 125, 235);
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.recover {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+.recover a {
+    text-decoration: none;
+    color: rgb(125, 125, 235);
+}
+.recover a:hover {
+    text-decoration: underline;
+    color: blue;
+}
