@@ -16,6 +16,7 @@ if ($isLoggedIn) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restorāns OP - Mājas lapa</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -56,6 +57,12 @@ if ($isLoggedIn) {
             </div>
             <div class="image-container">
                 <a href="offer2.html"><img src="images/image2.jpg" alt="Piedāvājums 2"></a>
+            </div>
+            <div class="image-container">
+                <a href="offer3.html"><img src="images/image3.jpg" alt="Piedāvājums 3"></a>
+            </div>
+            <div class="image-container">
+                <a href="offer4.html"><img src="images/image4.jpg" alt="Piedāvājums 4"></a>
             </div>
         </div>
         <p>Tikai šodien - pērc trīs un maksā par četriem. Cena tikai 9,99 + 9,99 par katru nākamo pirkumu.</p>
