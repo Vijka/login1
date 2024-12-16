@@ -1,7 +1,6 @@
 <?php
 session_start();
 include("connect.php");
-
 // Pārbaude, vai lietotājs ir pieteicies
 $isLoggedIn = isset($_SESSION['email']);
 if ($isLoggedIn) {
@@ -10,7 +9,6 @@ if ($isLoggedIn) {
     $user = mysqli_fetch_assoc($query);
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="lv">
 <head>
@@ -32,19 +30,17 @@ if ($isLoggedIn) {
                 <li><a href="#offer">Šīs dienas piedāvājums</a></li>
                 <?php if ($isLoggedIn): ?>
                     <li><a href="#profile">Profils</a></li>
-                    <li><a href="logout.php">Izrakstīties</a></li>
+                    <li><a href="logout1.php">Izrakstīties</a></li>
                 <?php else: ?>
                     <li><a href="autorizacija.php">Pieslēgties</a></li>
                 <?php endif; ?>
             </ul>
         </nav>
     </header>
-
     <section id="home">
         <h2>Laipni lūdzam Restorānā!</h2>
         <p>Izmēģiniet mūsu gardos ēdienus un izbaudiet šodienas piedāvājumus.</p>
     </section>
-
     <?php if ($isLoggedIn): ?>
         <section id="profile">
             <h2>Sveiki, <?php echo $user['firstName'] . ' ' . $user['lastName']; ?>!</h2>
@@ -52,7 +48,6 @@ if ($isLoggedIn) {
             <p><strong>Lomu un citu informāciju, ja nepieciešams, var parādīt šeit.</strong></p>
         </section>
     <?php endif; ?>
-
     <section id="offer">
         <h2>Šīs dienas piedāvājums</h2>
         <div class="offer">
@@ -65,14 +60,12 @@ if ($isLoggedIn) {
         </div>
         <p>Tikai šodien - pērc trīs un maksā par četriem. Cena tikai 9,99 + 9,99 par katru nākamo pirkumu.</p>
     </section>
-
     <section id="contact">
         <h2>Kontaktinformācija</h2>
         <p>Adrese: Rīga, Brīvības iela 123</p>
         <p>Tālrunis: +371 12345678</p>
         <p>E-pasts: info@restoransop.lv</p>
     </section>
-
     <footer>
         <p>&copy; 2024 Vikas Restorāns. Visas tiesības aizsargātas.</p>
     </footer>
