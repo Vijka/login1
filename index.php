@@ -14,7 +14,7 @@ if ($isLoggedIn) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restorāns OP - Mājas lapa</title>
+    <title>Restorāns - Mājas lapa</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" rel="stylesheet">
 </head>
@@ -46,7 +46,7 @@ if ($isLoggedIn) {
         <section id="profile">
             <h2>Sveiki, <?php echo $user['firstName'] . ' ' . $user['lastName']; ?>!</h2>
             <p><strong>E-pasts:</strong> <?php echo $email; ?></p>
-            <p><strong>Lomu un citu informāciju, ja nepieciešams, var parādīt šeit.</strong></p>
+            <p><strong>.</strong></p>
         </section>
     <?php endif; ?>
     <section id="offer">

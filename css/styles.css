@@ -227,26 +227,3 @@ input, button {
     line-height: 1.6;
     color: #555;
 }
-.profile-container {
-    display: flex;
-    align-items: center;
-}
-
-#profileImg.profile-img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; /* Padara attēlu par apli */
-    cursor: pointer;
-}
-/* .profile-img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-} */
-
-#profileLink {
-    display: block; /* Nodrošina saiti, uz kuru klikšķinot tiek pārvadīts */
-    width: 100%; /* Padara saiti aizņemamu */
-    height: 100%; /* Padara saiti aizņemamu */
-}

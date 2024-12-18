@@ -10,7 +10,7 @@
 <body>
     <div class="container" id="signup" style="display:none;">
       <h1 class="form-title">Registrēties</h1>
-      <form method="post" action="autorizacija.php">
+      <form method="post" action="register.php">
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
